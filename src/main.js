@@ -27,6 +27,8 @@ import TreeTable from 'tree-table-vue'
 import VueApexCharts from 'vue-apexcharts'
 import '@babel/polyfill'
 
+if (process.env.NODE_ENV !== 'production') require('@/mock')
+
 Vue.config.productionTip = false
 Vue.use(VueLazyload, {
     error: require('./assets/img-error.png'),

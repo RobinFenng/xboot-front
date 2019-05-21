@@ -1,0 +1,7 @@
+export default {
+	result: 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0IiwiYXV0aG9yaXRpZXMiOiJbXCLnvJbovpHlt7Llj5HpgIHmtojmga9cIixcIua3u-WKoOaMiemSrua1i-ivlVwiLFwi57yW6L6R5oyJ6ZKu5rWL6K-VXCIsXCLliKDpmaTmjInpkq7mtYvor5VcIixcIlJPTEVfVVNFUlwiXSIsImV4cCI6MTU1OTA1NDg4OX0.zcVEjHtUv5YHbk_tfJGxTEdX_0hC4tzgtaipGKseY8SWfY7a5--gdv4K9ndvOjURrDRChjqdPGdKn3BCAEcmcg',
+	code: 200,
+	success: true,
+	message: '登录成功',
+	timestamp: 1558450089338
+}
