@@ -1,5 +1,7 @@
 import Mock from 'mockjs'
 import { doCustomTimes } from '@/libs/util'
+import userData from './data/user-data'
+
 const Random = Mock.Random
 
 export const getMessageInit = () => {
@@ -52,4 +54,8 @@ export const restoreTrash = () => {
 
 export const messageCount = () => {
   return 3
+}
+
+export const getUserData = req => {
+  return userData
 }
